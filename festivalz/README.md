@@ -6,7 +6,7 @@ Festivalz is a simple php web-based agenda to keep track of festivals. You can a
 ## License
 Festivalz is Free/Libre Software, released under GNU General Public License, version 3.
 
-Copyleft 2013 Nelson Goncalves (animaxionstudioz.com)
+Copyleft 2013 Nelson Gonçalves (animaxionstudioz.com)
 
  ***** BEGIN GPL LICENSE BLOCK *****
 
