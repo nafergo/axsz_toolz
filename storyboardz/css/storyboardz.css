@@ -1,0 +1,87 @@
+body {
+	background: #fff;
+	font-family: "Open Sans", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	}
+
+
+
+/*-------------------------------------------------------
+header
+-------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------
+index
+-------------------------------------------------------*/
+
+.shotframe {
+	height: 25.000em;
+	vertical-align: top;
+	background:#eee;
+	border: solid #ccc 1px;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 1px #ccc; 
+	-moz-box-shadow: 0 1px 1px #ccc; 
+	box-shadow: 0 1px 1px #ccc; 
+	}
+
+.shotframecontainer {
+	margin-bottom: 1em;	 
+	}
+
+.shotframe img {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.shottext {
+	overflow-y: auto;
+	height: 50%;
+	}
+
+
+
+
+
+/*-------------------------------------------------------
+slideshow
+-------------------------------------------------------*/
+
+.carousel-caption{
+	background-color:rgba(0, 0, 0, 0.2);
+	}		
+
+/*-------------------------------------------------------
+footer
+-------------------------------------------------------*/
+
+.footer {
+	font-size: 0.8em;
+	opacity: 0.8;
+	text-align: right;
+	}
+
+
+
+/*-------------------------------------------------------
+admin
+-------------------------------------------------------*/
+
+
+/*-------------------------------------------------------
+help
+-------------------------------------------------------*/
+
+.menufixed {
+	position: fixed;
+	}
+
+
