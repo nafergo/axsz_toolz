@@ -23,7 +23,7 @@ Copyleft 2013 Nelson Goncalves (animaxionstudioz.com)
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
- ***** END GPL LICENCE BLOCK *****
+ ***** END GPL LICENSE BLOCK *****
 
 ## Description
 
