@@ -1,6 +1,6 @@
 # WebMizer
 
-WebMizer is a set of bash script tools for Debian GNU/Linux (and derivatives like Ubuntu) to ease the creation of WebM videos with FFmpeg. 
+WebMizer is a set of bash script tools for Debian GNU/Linux (and derivatives like Ubuntu) to ease the creation of WebM videos with FFmpeg. There are no current plans to develop this any further, development goes in a strict as-needed policy.
 
 ## License
 WebMizer is Free/Libre Software, released under GNU General Public License, version 3.
@@ -25,7 +25,7 @@ Features include:
 Just extract the zip file and edit the sh files. Everything you need is inside :)
 
 ### What about bugs and ideas?
-If you have any bugs to report or ideas, please use our contact form.
+If you have any bugs to report or ideas, please create a new issue.
 
  
 
@@ -36,4 +36,3 @@ If you have problems with the presets or your ffmpeg version, we suggest you try
 
 – FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid (amd64, i386) available at Jon Severinsson’s FFmpeg PPA.
 
-Other help or  questions, please use our contact form.
