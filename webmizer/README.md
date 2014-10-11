@@ -5,7 +5,7 @@ WebMizer is a set of bash script tools for Debian GNU/Linux (and derivatives lik
 ## License
 WebMizer is Free/Libre Software, released under GNU General Public License, version 3.
 
-Copyleft 2012 Luis Carvalheiro & Nelson Goncalves (animaxionstudioz.com)
+Copyleft 2012 Luis Carvalheiro & Nelson Gonçalves (animaxionstudioz.com)
 
  ***** BEGIN GPL LICENSE BLOCK *****
 

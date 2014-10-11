@@ -6,7 +6,7 @@ ATTENTION > please install yad (yet another dialog): http://code.google.com/p/ya
 ## License
 ProDISC is Free/Libre Software, released under GNU General Public License, version 3.
 
-Copyleft 2013 Luis Carvalheiro & Nelson Gonçalves [nafergo] (animaxionstudioz.com)
+Copyleft 2013 Luis Carvalheiro & Nelson Gonçalves (animaxionstudioz.com)
 
  ***** BEGIN GPL LICENSE BLOCK *****
 
