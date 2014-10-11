@@ -10,7 +10,7 @@ Festivalz is Free/Libre Software, released under GNU General Public License, ver
 
 Features include:
 
-* add/submit and delete festivals via web form
+* add/submit and delete festivals info via web form
 * direct editing the flatfile via webpage
 
  
