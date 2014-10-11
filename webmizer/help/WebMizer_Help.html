@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>WebMizer Help</title>
+  
+
+  
+  
+  <style type="text/css">
+body {
+  font-family: Arial,Helvetica,sans-serif;
+}
+h2 {
+  background-color: #afff70;
+}
+
+  </style></head><body>
+<h1><span style="font-family: Helvetica,Arial,sans-serif;">HELP!</span></h1>WebMizer
+is a set of tools for Debian GNU/Linux (and derivatives like Ubuntu) to
+ease the creation of WebM videos with FFmpeg. It was developed by <a href="http://www.animaxionstudioz.com/" target="_blank">AnimaXion Studioz&nbsp;</a> for internal use. We redistribute this because we believe in sharing ;)<br>
+<br>
+WebMizer (including all individual tools) is Free/Libre Software and is released under the GNU GPL 3 license.<br>
+<br>
+If you have any bugs to report or ideas, please use our contact form at <a href="http://forge.animaxionstudioz.com/" target="_blank">http://forge.animaxionstudioz.com</a> or mail to nafergo[AT]animaxionstudioz[dot]com<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2><a href="#webmizer">Can't run WebMizer</a></h2>
+
+<h2><a href="WebMizer_Help.html#ffmpeg">Need more info or support about
+FFmpeg</a></h2>
+
+<h2><a href="#video_presets">Need more info or support about the video
+presets</a><br>
+</h2>
+
+<h2><a href="#video_quality">Need more info on video quality</a><br>
+</h2>
+
+<h2><a href="#audio_quality">Need more info on audio quality</a></h2>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<h2><a name="webmizer"></a>Can't run WebMizer</h2>
+- WebMizer is a set of tools for Debian GNU/Linux (and derivatives like Ubuntu).<br>
+- Make sure that you have FFmpeg 0.6 or above installed.<br>
+- Check the permissions tab of the *.sh files, "Allow executing file as program" should be marked.<br>
+
+<br>
+
+<br>
+
+<h2><a name="ffmpeg"></a>Need more info or support about FFmpeg</h2>
+
+- "FFmpeg is a complete, cross-platform solution to record, convert and
+stream audio and video." [<a href="http://ffmpeg.org" target="_blank">http://ffmpeg.org</a>]<br>
+
+- We should also add that FFmpeg is an awesome tool :)<br>
+
+- WebMizer can be seens as an interface layer for using FFmpeg to
+create WebM videos.<br>
+
+- Because "FFmpeg 0.6 contains WebM container support and substantial
+VP8 support" [<a href="http://www.webmproject.org/tools/" target="_blank">http://www.webmproject.org/tools/</a>], to use
+WebMizer you should make sure that you have FFmpeg 0.6 or above
+installed.<br>
+
+<br>
+
+<br>
+
+<h2><a name="video_presets"></a>Need more info or support about the
+video presets</h2>
+
+- WebMizer uses the FFmpeg WebM libvpx-360p, libvpx-720p and
+libvpx-1080p presets.<br>
+
+- If you have any problem with the presets, check if you have them
+installed at &#65279;/usr/share/ffmpeg/<br>
+
+<br>
+
+/usr/share/ffmpeg/libvpx-360p.ffpreset<br>
+
+&#65279;/usr/share/ffmpeg/libvpx-720p.ffpreset <br>
+
+/usr/share/ffmpeg/libvpx-1080p.ffpreset<br>
+
+<br>
+
+- If needed, download <a href="libvpx-presets.zip">here</a> the
+presets and copy them to the above folder (/usr/share/ffmpeg/).<br>
+
+<br>
+
+<br>
+
+<h2><a name="video_quality"></a>Need more info on video quality</h2>
+
+Basic speed/quality control parameters:
+<table>
+
+  <thead> <tr>
+  </tr>
+  </thead> <tbody>
+    <tr>
+      <td><code>Best</code></td>
+      <td>Best quality output but is slow.<br>
+</td>
+    </tr>
+    <tr>
+      <td><code>Good</code></td>
+      <td>Probably
+what most users use most of the time. Will give quality that is usually
+very close to and even sometimes better than that obtained with Best
+but the encoder will typically run faster.&nbsp;<br>
+      </td>
+    </tr>
+    <tr>
+      <td><code>Fastest</code></td>
+      <td>Significant
+boost to encode speed but will start to have a more noticeable impact
+on quality and may also start to effect the accuracy of the data rate
+control.<br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+For more info on this issue check:<br>
+<a href="http://www.webmproject.org/docs/encoder-parameters/" target="_blank">
+
+http://www.webmproject.org/docs/encoder-parameters/</a><br>
+<a href="http://www.webmproject.org/tools/" target="_blank">http://www.webmproject.org/tools/</a><br>
+<a href="http://ffmpeg.org/ffmpeg.html" target="_blank">http://ffmpeg.org/ffmpeg.html</a><br>
+<br>
+<br>
+
+<h2><a name="audio_quality"></a>Need more info on audio quality</h2>
+
+- WebMizer uses <a href="http://www.vorbis.com/" target="_blank">Ogg
+Vorbis</a> for audio encoding. <br>
+
+- You can choose from a 0-10 range for audio quality. 0 means less
+quality and 10 means best quality.<br>
+
+- If you want more specs about the audio quality, please check the
+table below. This table is a copy/paste from info provided at the <a href="http://wiki.hydrogenaudio.org/index.php?title=Recommended_Ogg_Vorbis#Recommended_Encoder_Settings" target="_blank">Hydrogenaudio Knowledgebase</a>.<br>
+
+<br>
+
+<table style="border: 1px dotted ; margin-left: 50px; text-align: center;" border="0" cellpadding="5" cellspacing="0">
+
+  <tbody>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <th>Switch </th>
+      <th> VBR target<br>
+(kbit/s) </th>
+      <th> VBR range<br>
+(kbit/s) </th>
+      <th> <a href="http://wiki.hydrogenaudio.org/index.php?title=Channel_coupling" title="Channel coupling">Channel<br>
+Coupling</a> </th>
+      <th> <a href="http://wiki.hydrogenaudio.org/index.php?title=Noise_normalization" title="Noise normalization">Noise<br>
+Normalization</a> </th>
+      <th> Note </th>
+    </tr>
+    <tr>
+      <td> -q -2 </td>
+      <td> ~32 </td>
+      <td> ~32 &#8211; ~64 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> (1) </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q -1 </td>
+      <td> ~48 </td>
+      <td> ~48 &#8211; ~64 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> (2) </td>
+    </tr>
+    <tr>
+      <td> -q 0 </td>
+      <td> ~64 </td>
+      <td> ~64&#8211;~80 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q 1 </td>
+      <td> ~80 </td>
+      <td> ~80 &#8211; ~96 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> (3) </td>
+    </tr>
+    <tr>
+      <td> -q 2 </td>
+      <td> ~96 </td>
+      <td> ~96 &#8211; ~112 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q 3 </td>
+      <td> ~112 </td>
+      <td> ~112 &#8211; ~128 </td>
+      <td> point/lossless </td>
+      <td> yes </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr>
+      <td> -q 4 </td>
+      <td> ~128 </td>
+      <td> ~128 &#8211; ~160 </td>
+      <td> point/lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q 5 </td>
+      <td> ~160 </td>
+      <td> ~160 &#8211; ~192 </td>
+      <td> point/lossless </td>
+      <td> no </td>
+      <td> (4) </td>
+    </tr>
+    <tr>
+      <td> -q 6 </td>
+      <td> ~192 </td>
+      <td> ~192 &#8211; ~224 </td>
+      <td> lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q 7 </td>
+      <td> ~224 </td>
+      <td> ~224 &#8211; ~256 </td>
+      <td> lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr>
+      <td> -q 8 </td>
+      <td> ~256 </td>
+      <td> ~256 &#8211; ~320 </td>
+      <td> lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr style="background-color: rgb(238, 238, 238);">
+      <td> -q 9 </td>
+      <td> ~320 </td>
+      <td> ~320 &#8211; ~500 </td>
+      <td> lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+    <tr>
+      <td> -q 10 </td>
+      <td> ~500 </td>
+      <td> ~500 &#8211; ~1000 </td>
+      <td> lossless </td>
+      <td> no </td>
+      <td> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+<div style="margin-left: 30px;">
+<p>(1)<i> Only supported on aoTuVb3 and newer </i><br>
+(2)<i> Bitrate of 48 kbit/s is only for aoTuVb3 and newer. Earlier versions and Xiph.org versions use a bitrate of 45 kbit/s </i><br>
+(3)<i> Reports seem to indicate that aoTuV Release 1 <span style="color: red;">-q 1</span> provides good quality for streaming </i><br>
+(4)<i> Most users agree <span style="color: red;">-q 5</span> achieves transparency, if the source is the original or <a href="http://wiki.hydrogenaudio.org/index.php?title=Lossless" title="Lossless">lossless</a>. It is not transparent in the case of <a href="http://wiki.hydrogenaudio.org/index.php?title=Transcoding" title="Transcoding">transcoding</a> from lossy source <b>(strongly frowned upon)</b></i>
+</p><p>If you need to know what <b>lowpass settings</b> are used for each quality level, see <a href="http://www.hydrogenaudio.org/forums/index.php?showtopic=15049&amp;st=160&amp;p=357461&amp;#entry357461" class="external text" rel="nofollow">this HA thread</a>. <i>(It is not recommended that you adjust these)</i>
+</p>
+</div>
+<br>
+
+</body></html>

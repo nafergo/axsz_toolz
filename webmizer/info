@@ -1,0 +1,5 @@
+WebMizer is a set of tools for Debian GNU/Linux (and derivatives like Ubuntu) to ease the creation of WebM videos with FFmpeg.
+
+WebMizer (including all individual tools) is Free/Libre Software and is released under the GNU GPL 3 license.
+
+NOTE Please make sure that you have FFmpeg 0.6 or above installed.
