@@ -1,4 +1,0 @@
-imagemagick creates a 400x400 jpg version for each hdr in the folder
-
-convert *.hdr -thumbnail 400x400 -set filename:fname '%t_tn' +adjoin '%[filename:fname].jpg'
-
